@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+        <div class="result">
+            <div class="history">
+                <p class="history-value"></p>
+            </div>
+            <div class="output">
+                <p class="output-value"></p>
+            </div>
+        </div>
+        <div class="keyboard">
+            <button id="/" class="operator btn btn-operator">÷</button>
+            <button id="clear" class="operator btn btn-operator">C</button>
+            <button id="*" class="operator btn btn-operator">×</button>
+            <button id="backspace" class="operator btn btn-operator outside">CE</button>
+            <button id="7" class="number btn btn-number inside">7</button>
+            <button id="8" class="number btn btn-number inside">8</button>
+            <button id="9" class="number btn btn-number inside">9</button>
+            <button id="-" class="operator btn btn-operator outside">-</button>
+            <button id="4" class="number btn btn-number inside">4</button>
+            <button id="5" class="number btn btn-number inside">5</button>
+            <button id="6" class="number btn btn-number inside">6</button>
+            <button id="+" class="operator btn btn-operator outside">+</button>
+            <button id="1" class="number btn btn-number inside">1</button>
+            <button id="2" class="number btn btn-number inside">2</button>
+            <button id="3" class="number btn btn-number inside">3</button>
+            <button id="." class="operator btn btn-operator inside">.</button>
+            <button id="0" class="number btn btn-number inside">0</button>
+            <button id="%" class="operator btn btn-operator inside">%</button>
+            <button id="=" class="operator btn btn-result">=</button>
+        </div>
+    </div>
+    <div class="credits">
+        A thing from <a href="https://emiliosanchez.dev">Emilio S.</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
